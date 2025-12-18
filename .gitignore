@@ -1,0 +1,69 @@
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Playwright
+# =========================
+playwright-report/
+test-results/
+blob-report/
+*.zip
+
+# =========================
+# Test Reports (Custom)
+# =========================
+reports/
+coverage/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Build / Dist
+# =========================
+dist/
+build/
+out/
+
+# =========================
+# Temporary / Cache
+# =========================
+.cache/
+.tmp/
+.temp/
+
+# =========================
+# MCP / Runtime Artifacts
+# =========================
+*.pid
+*.sock
